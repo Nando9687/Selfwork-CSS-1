@@ -1,0 +1,22 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Orbitron", sans-serif;
+    color: #1a6bbf;
+}
+
+section {
+    /* L'immagine di sfondo potrebbe vedersi poco perche' la section contiene gia' altri elementi.
+    Ho preferito restare aderente alla traccia senza aggiungere altre proprieta' CSS. */
+    background-image: url("https://picsum.photos/1200/600");
+}
+
+article {
+    background-color: white;
+}
+
+article:hover {
+    background-color: #d6eaff;
+}
